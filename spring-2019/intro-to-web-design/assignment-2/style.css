@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+html,
+body,
+h1,
+p,
+header,
+main,
+footer {
+   border: 0;
+   margin: 0;
+}
+
+:root {
+   --reading-typeface: 'Open Sans', sans-serif;
+   --display-typeface: 'Major Mono Display', sans-serif;
+   --color--orange: #ef8e38;
+   --color--bluish: #108dc7;
+   --width--full-viewport-width: 100vw;
+   --leading: 20px;
+}
+
+body {
+   background: linear-gradient(to right, var(--color--orange), var(--color--bluish));
+   font-family: var(--reading-typeface);
+   text-align: center;
+}
+
+h1 {
+   font-size: 4rem;
+   margin-top: calc(2 * var(--leading));
+   font-family: var(--display-typeface);
+}
+
+main {
+   background-color: rgba(0, 0, 0, .1);
+   margin-top: calc(2 * var(--leading));
+}
+
+main p {
+   padding: var(--leading) 0;
+}
+
+footer {
+   position: fixed;
+   width: var(--width--full-viewport-width);
+   bottom: 0;
+   margin-bottom: calc(2 * var(--leading));
+   font-size: .75rem;
+}

@@ -1,1 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Cormorant|Fredericka+the+Great|Homemade+Apple|Italiana|Marcellus+SC|Petit+Formal+Script|Raleway+Dots|Rochester|Tulpen+One');
+@import url("https://fonts.googleapis.com/css?family=Kristi|Oranienbaum");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Modak|Sofia');
 
+
+
+* {
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  width: auto;
+  margin: auto;
+  background-image: url("img/bg.jpg");
+  height: auto;
+  width: auto;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/me.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  padding-top: 240px;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Kristi', cursive;
+  font-size: 35px;
+}
+
+
+
+img {
+  align-items: center;
+  border: white;
+}
+
+.question {
+  font-family: 'Raleway Dots', cursive;
+  font-size: 35px;
+  text-align: center;
+  background-color: lightsteelblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.pic {
+  text-align: center;
+  margin: 20px;
+}
+
+.par {
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  border: solid;
+  border-color: black;
+  border-width: 5px;
+  font-family: 'Sofia', cursive;
+}
+
+
+pic {
+  background-color: transparent;
+}
+
+#buttons-container {
+  padding-top: 250px;
+  text-align: center;
+  width: 400px;
+  height: 300px;
+}
+
+#buttons-container > button {
+  cursor: pointer;
+  padding: 12px;
+}
+
+#demo {
+  margin-top: 25px;
+  font-size: 24px;
+  color: red;
+  background-color: black;
+  width: 300px;
+  height: 100px;
+  padding-top: 10px;
+  font-family: 'Oranienbaum', serif;
+  padding-top: 15px;
+}
